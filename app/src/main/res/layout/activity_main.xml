@@ -51,7 +51,8 @@
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:text="@string/btn_iniciar_pantalla"
-                tools:text="@string/btn_iniciar_pantalla" />
+                tools:text="@string/btn_iniciar_pantalla"
+                android:background="@drawable/btnis"/>
 
             <Button
                 android:id="@+id/button13"
