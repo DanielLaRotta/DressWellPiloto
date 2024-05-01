@@ -50,15 +50,16 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
+                android:backgroundTint="#FF0000"
                 android:text="@string/btn_iniciar_pantalla"
-                tools:text="@string/btn_iniciar_pantalla"
-                android:background="@drawable/btnis"/>
+                tools:text="@string/btn_iniciar_pantalla" />
 
             <Button
                 android:id="@+id/button13"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
+                android:backgroundTint="#FF0000"
                 android:onClick="irRegistrar"
                 android:text="@string/btn_registar_pantalla"
                 tools:text="@string/btn_registar_pantalla" />
