@@ -19,7 +19,7 @@
 
         <EditText
             android:id="@+id/editTextText4"
-            android:layout_width="match_parent"
+            android:layout_width="410dp"
             android:layout_height="wrap_content"
             android:ems="10"
             android:hint="Nombre"
@@ -27,7 +27,7 @@
 
         <EditText
             android:id="@+id/editTextText4"
-            android:layout_width="match_parent"
+            android:layout_width="410dp"
             android:layout_height="wrap_content"
             android:ems="10"
             android:hint="Apellido"
@@ -35,7 +35,7 @@
 
         <EditText
             android:id="@+id/editTextText4"
-            android:layout_width="match_parent"
+            android:layout_width="410dp"
             android:layout_height="wrap_content"
             android:ems="10"
             android:hint="Correo"
@@ -43,7 +43,7 @@
 
         <EditText
             android:id="@+id/editTextTextPassword"
-            android:layout_width="match_parent"
+            android:layout_width="410dp"
             android:layout_height="wrap_content"
             android:ems="10"
             android:hint="Contraseña"
@@ -51,7 +51,7 @@
 
         <Button
             android:id="@+id/button"
-            android:layout_width="match_parent"
+            android:layout_width="410dp"
             android:layout_height="wrap_content"
             android:text="@string/btn_registar_pantalla"
             tools:text="@string/btn_registar_pantalla" />
