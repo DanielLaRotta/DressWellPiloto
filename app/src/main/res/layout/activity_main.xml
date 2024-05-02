@@ -69,9 +69,10 @@
                     <TextView
                         android:id="@+id/textView2"
                         android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
+                        android:layout_height="39dp"
                         android:layout_weight="0
 "
+                        android:gravity="center"
                         android:text="¿No tienes cuenta?"
                         tools:text="¿No tienes cuenta?" />
 
@@ -80,9 +81,10 @@
                         android:layout_width="100dp"
                         android:layout_height="40dp"
                         android:layout_weight="1"
-                        android:backgroundTint="#d33333"
+                        android:backgroundTint="#D33333"
                         android:onClick="irRegistrar"
                         android:text="@string/btn_registar_pantalla"
+                        android:textColor="#FFFFFF"
                         tools:text="@string/btn_registar_pantalla" />
 
                 </LinearLayout>
