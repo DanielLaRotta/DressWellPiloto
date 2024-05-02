@@ -5,6 +5,7 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#FFFFFF"
     android:backgroundTint="#ffff"
     tools:context=".MainActivity">
 
@@ -68,7 +69,7 @@
 
                     <TextView
                         android:id="@+id/textView2"
-                        android:layout_width="wrap_content"
+                        android:layout_width="194dp"
                         android:layout_height="39dp"
                         android:layout_weight="0
 "
@@ -81,10 +82,10 @@
                         android:layout_width="100dp"
                         android:layout_height="40dp"
                         android:layout_weight="1"
-                        android:backgroundTint="#D33333"
+                        android:backgroundTint="#FFFF"
                         android:onClick="irRegistrar"
                         android:text="@string/btn_registar_pantalla"
-                        android:textColor="#FFFFFF"
+                        android:textColor="#3685CD"
                         tools:text="@string/btn_registar_pantalla" />
 
                 </LinearLayout>
