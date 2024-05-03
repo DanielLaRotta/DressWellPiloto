@@ -13,6 +13,9 @@
         android:theme="@style/Theme.DressWellPiloto"
         tools:targetApi="31">
         <activity
+            android:name=".PrimeraPag"
+            android:exported="false" />
+        <activity
             android:name=".RegistrarseAc"
             android:exported="false" />
         <activity

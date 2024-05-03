@@ -70,6 +70,7 @@
             android:layout_width="400dp"
             android:layout_height="wrap_content"
             android:backgroundTint="#D33333"
+            android:onClick="irPrimeraPag"
             android:text="@string/btn_registar_pantalla"
             tools:text="@string/btn_registar_pantalla" />
 

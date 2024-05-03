@@ -18,6 +18,12 @@ public class MainActivity extends AppCompatActivity {
         EdgeToEdge.enable(this);
         setContentView(R.layout.activity_main);
         }
+
+        public void irPrimeraPag(View view){
+
+        Intent i = new Intent(this, PrimeraPag.class);
+        startActivity(i);
+        }
         public void irRegistrar(View view){
 
             Intent i = new Intent(this, RegistrarseAc.class);

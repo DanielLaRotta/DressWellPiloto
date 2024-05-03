@@ -58,6 +58,7 @@
                     android:layout_height="50dp"
                     android:layout_weight="0"
                     android:backgroundTint="#d33333"
+                    android:onClick="irPrimeraPag"
                     android:text="@string/btn_iniciar_pantalla"
                     tools:text="@string/btn_iniciar_pantalla" />
 
