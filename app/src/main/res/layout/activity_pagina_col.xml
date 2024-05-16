@@ -37,69 +37,49 @@
         android:id="@+id/button2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="8dp"
         android:backgroundTint="#FFFFFF"
         android:text="VER"
         android:textColor="#000000"
-        app:layout_constraintTop_toBottomOf="@+id/imageView4"
         app:strokeColor="#000000"
         app:strokeWidth="3dp"
-        tools:layout_editor_absoluteX="73dp" />
+        tools:layout_editor_absoluteX="73dp"
+        tools:layout_editor_absoluteY="314dp" />
 
     <Button
         android:id="@+id/button5"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="8dp"
         android:backgroundTint="#FFFFFF"
         android:text="VER"
         android:textColor="#000000"
-        app:layout_constraintTop_toBottomOf="@+id/imageView5"
         app:strokeColor="#000000"
         app:strokeWidth="3dp"
-        tools:layout_editor_absoluteX="242dp" />
-
-    <ImageView
-        android:id="@+id/imageView7"
-        android:layout_width="145dp"
-        android:layout_height="149dp"
-        app:srcCompat="@mipmap/Color4"
-        tools:layout_editor_absoluteX="212dp"
-        tools:layout_editor_absoluteY="347dp" />
-
-    <ImageView
-        android:id="@+id/imageView6"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        app:srcCompat="@mipmap/Color3"
-        tools:layout_editor_absoluteX="49dp"
-        tools:layout_editor_absoluteY="347dp" />
+        tools:layout_editor_absoluteX="254dp"
+        tools:layout_editor_absoluteY="314dp" />
 
     <Button
         android:id="@+id/button7"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="24dp"
         android:backgroundTint="#FFFFFF"
         android:text="VER"
         android:textColor="#000000"
-        app:layout_constraintTop_toBottomOf="@+id/imageView7"
         app:strokeColor="#000000"
         app:strokeWidth="3dp"
-        tools:layout_editor_absoluteX="242dp" />
+        tools:layout_editor_absoluteX="254dp"
+        tools:layout_editor_absoluteY="550dp" />
 
     <Button
         android:id="@+id/button6"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="24dp"
         android:backgroundTint="#FFFFFF"
         android:text="VER"
         android:textColor="#000000"
-        app:layout_constraintTop_toBottomOf="@+id/imageView6"
         app:strokeColor="#000000"
         app:strokeWidth="3dp"
-        tools:layout_editor_absoluteX="73dp" />
+        tools:layout_editor_absoluteX="73dp"
+        tools:layout_editor_absoluteY="550dp" />
 
     <Button
         android:id="@+id/button8"
@@ -110,6 +90,38 @@
         android:textColor="#FFFFFF"
         android:textSize="16sp"
         tools:layout_editor_absoluteX="139dp"
-        tools:layout_editor_absoluteY="607dp" />
+        tools:layout_editor_absoluteY="630dp" />
+
+    <ImageButton
+        android:id="@+id/imageButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@mipmap/color1"
+        tools:layout_editor_absoluteX="33dp"
+        tools:layout_editor_absoluteY="136dp" />
+
+    <ImageButton
+        android:id="@+id/imageButton3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@mipmap/color2"
+        tools:layout_editor_absoluteX="212dp"
+        tools:layout_editor_absoluteY="136dp" />
+
+    <ImageButton
+        android:id="@+id/imageButton4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@mipmap/color3"
+        tools:layout_editor_absoluteX="35dp"
+        tools:layout_editor_absoluteY="382dp" />
+
+    <ImageButton
+        android:id="@+id/imageButton5"
+        android:layout_width="152dp"
+        android:layout_height="159dp"
+        app:srcCompat="@mipmap/color4"
+        tools:layout_editor_absoluteX="224dp"
+        tools:layout_editor_absoluteY="382dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
