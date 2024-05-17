@@ -51,7 +51,7 @@
         app:strokeColor="#000000"
         app:strokeWidth="3dp"
         tools:layout_editor_absoluteX="254dp"
-        tools:layout_editor_absoluteY="550dp" />
+        tools:layout_editor_absoluteY="573dp" />
 
     <Button
         android:id="@+id/button6"
@@ -63,7 +63,7 @@
         app:strokeColor="#000000"
         app:strokeWidth="3dp"
         tools:layout_editor_absoluteX="73dp"
-        tools:layout_editor_absoluteY="550dp" />
+        tools:layout_editor_absoluteY="573dp" />
 
     <Button
         android:id="@+id/button8"
@@ -97,7 +97,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         app:srcCompat="@mipmap/color_3"
-        tools:layout_editor_absoluteX="38dp"
+        tools:layout_editor_absoluteX="50dp"
         tools:layout_editor_absoluteY="362dp" />
 
     <ImageView
@@ -105,7 +105,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         app:srcCompat="@mipmap/color_4"
-        tools:layout_editor_absoluteX="217dp"
+        tools:layout_editor_absoluteX="230dp"
         tools:layout_editor_absoluteY="362dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
