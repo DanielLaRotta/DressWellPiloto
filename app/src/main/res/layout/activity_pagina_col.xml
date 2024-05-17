@@ -17,22 +17,6 @@
         tools:layout_editor_absoluteX="16dp"
         tools:layout_editor_absoluteY="16dp" />
 
-    <ImageView
-        android:id="@+id/imageView4"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        app:srcCompat="@mipmap/Color1"
-        tools:layout_editor_absoluteX="45dp"
-        tools:layout_editor_absoluteY="124dp" />
-
-    <ImageView
-        android:id="@+id/imageView5"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        app:srcCompat="@mipmap/Color2"
-        tools:layout_editor_absoluteX="212dp"
-        tools:layout_editor_absoluteY="124dp" />
-
     <Button
         android:id="@+id/button2"
         android:layout_width="wrap_content"
@@ -92,36 +76,36 @@
         tools:layout_editor_absoluteX="139dp"
         tools:layout_editor_absoluteY="630dp" />
 
-    <ImageButton
-        android:id="@+id/imageButton"
+    <ImageView
+        android:id="@+id/imageView2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        app:srcCompat="@mipmap/color1"
-        tools:layout_editor_absoluteX="33dp"
-        tools:layout_editor_absoluteY="136dp" />
+        app:srcCompat="@mipmap/color_1"
+        tools:layout_editor_absoluteX="50dp"
+        tools:layout_editor_absoluteY="110dp" />
 
-    <ImageButton
-        android:id="@+id/imageButton3"
+    <ImageView
+        android:id="@+id/imageView4"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        app:srcCompat="@mipmap/color2"
-        tools:layout_editor_absoluteX="212dp"
-        tools:layout_editor_absoluteY="136dp" />
+        app:srcCompat="@mipmap/color_2"
+        tools:layout_editor_absoluteX="229dp"
+        tools:layout_editor_absoluteY="109dp" />
 
-    <ImageButton
-        android:id="@+id/imageButton4"
+    <ImageView
+        android:id="@+id/imageView5"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        app:srcCompat="@mipmap/color3"
-        tools:layout_editor_absoluteX="35dp"
-        tools:layout_editor_absoluteY="382dp" />
+        app:srcCompat="@mipmap/color_3"
+        tools:layout_editor_absoluteX="38dp"
+        tools:layout_editor_absoluteY="362dp" />
 
-    <ImageButton
-        android:id="@+id/imageButton5"
-        android:layout_width="152dp"
-        android:layout_height="159dp"
-        app:srcCompat="@mipmap/color4"
-        tools:layout_editor_absoluteX="224dp"
-        tools:layout_editor_absoluteY="382dp" />
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@mipmap/color_4"
+        tools:layout_editor_absoluteX="217dp"
+        tools:layout_editor_absoluteY="362dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
