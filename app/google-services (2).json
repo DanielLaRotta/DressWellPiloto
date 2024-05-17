@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "999900710883",
+    "project_id": "dresswellbd1",
+    "storage_bucket": "dresswellbd1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:999900710883:android:f410d32efe2821fb7b42d6",
+        "android_client_info": {
+          "package_name": "com.example.dresswellpiloto"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAGQME1KdSnSD7UNUCd-nDyp6U-wDhFe6g"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
