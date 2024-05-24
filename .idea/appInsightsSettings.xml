@@ -9,9 +9,9 @@
               <option name="connection">
                 <ConnectionSetting>
                   <option name="appId" value="com.example.dresswellpiloto" />
-                  <option name="mobileSdkAppId" value="1:878346946429:android:3c6ba0f214e6486a40ee14" />
-                  <option name="projectId" value="dresswell-d9c48" />
-                  <option name="projectNumber" value="878346946429" />
+                  <option name="mobileSdkAppId" value="1:999900710883:android:f410d32efe2821fb7b42d6" />
+                  <option name="projectId" value="dresswellbd1" />
+                  <option name="projectNumber" value="999900710883" />
                 </ConnectionSetting>
               </option>
               <option name="signal" value="SIGNAL_UNSPECIFIED" />
