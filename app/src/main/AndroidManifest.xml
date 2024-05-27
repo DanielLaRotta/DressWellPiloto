@@ -13,6 +13,24 @@
         android:theme="@style/Theme.DressWellPiloto"
         tools:targetApi="31">
         <activity
+            android:name=".PaginaCol_FL"
+            android:exported="false" />
+        <activity
+            android:name=".PaginaCol_FN"
+            android:exported="false" />
+        <activity
+            android:name=".PaginaCol_FS"
+            android:exported="false" />
+        <activity
+            android:name=".PaginaCol_CL"
+            android:exported="false" />
+        <activity
+            android:name=".PaginaCol_CN"
+            android:exported="false" />
+        <activity
+            android:name=".PaginaCol_CS"
+            android:exported="false" />
+        <activity
             android:name=".PaginaCol"
             android:exported="true" />
         <activity

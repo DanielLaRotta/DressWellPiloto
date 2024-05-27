@@ -88,7 +88,7 @@ public class PrimeraPag extends AppCompatActivity {
             public void onClick(View v) {
                 if (seleccionCasual){
                     if (seleccionSoleado){
-                        startActivity(new Intent(PrimeraPag.this, PaginaCol.class));
+                        startActivity(new Intent(PrimeraPag.this, PaginaCol_CS.class));
                     } else if (seleccionNublado) {
 
                     } else if (seleccionLluvioso) {
