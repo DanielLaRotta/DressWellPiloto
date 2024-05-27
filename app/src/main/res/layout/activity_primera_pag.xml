@@ -6,7 +6,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#F2FFFFFF"
-    tools:context=".MainActivity">
+    tools:context=".PrimeraPag">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -70,9 +70,11 @@
                 android:orientation="vertical">
 
                 <ImageButton
-                    android:id="@+id/imageButton16"
+                    android:id="@+id/btn_casual"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:background="@drawable/image_button_selector"
+                    android:onClick="onImageButtonClick"
                     app:srcCompat="@mipmap/casual" />
 
                 <TextView
@@ -89,9 +91,11 @@
                 android:orientation="vertical">
 
                 <ImageButton
-                    android:id="@+id/imageButton2"
+                    android:id="@+id/btn_formal"
                     android:layout_width="122dp"
                     android:layout_height="117dp"
+                    android:background="@drawable/image_button_selector"
+                    android:onClick="onImageButtonClick"
                     app:srcCompat="@mipmap/formal" />
 
                 <TextView
@@ -131,9 +135,11 @@
                 android:orientation="vertical">
 
                 <ImageButton
-                    android:id="@+id/imageButton18"
+                    android:id="@+id/btn_soleado"
                     android:layout_width="125dp"
                     android:layout_height="wrap_content"
+                    android:background="@drawable/image_button_selector"
+                    android:onClick="onImageButtonClick"
                     app:srcCompat="@mipmap/soleado" />
 
                 <TextView
@@ -151,9 +157,11 @@
                 android:orientation="vertical">
 
                 <ImageButton
-                    android:id="@+id/imageButton19"
+                    android:id="@+id/btn_nublado"
                     android:layout_width="126dp"
                     android:layout_height="wrap_content"
+                    android:background="@drawable/image_button_selector"
+                    android:onClick="onImageButtonClick"
                     app:srcCompat="@mipmap/nublado" />
 
                 <TextView
@@ -171,9 +179,11 @@
                 android:orientation="vertical">
 
                 <ImageButton
-                    android:id="@+id/imageButton20"
+                    android:id="@+id/btn_lluvioso"
                     android:layout_width="129dp"
                     android:layout_height="wrap_content"
+                    android:background="@drawable/image_button_selector"
+                    android:onClick="onImageButtonClick"
                     app:srcCompat="@mipmap/lluvioso" />
 
                 <TextView
@@ -191,17 +201,16 @@
             android:orientation="horizontal">
 
             <Button
-                android:id="@+id/button21"
+                android:id="@+id/btn_buscar"
                 android:layout_width="200dp"
                 android:layout_height="50dp"
                 android:backgroundTint="#3685CD"
-                android:onClick="irPaginaCol"
+                android:onClick="buscar"
                 android:text="BUSCAR"
                 app:icon="@android:drawable/ic_menu_search"
                 app:iconGravity="textEnd"
                 app:iconTint="#FFFFFF" />
         </LinearLayout>
     </LinearLayout>
-
 
 </androidx.constraintlayout.widget.ConstraintLayout>
