@@ -90,19 +90,19 @@ public class PrimeraPag extends AppCompatActivity {
                     if (seleccionSoleado){
                         startActivity(new Intent(PrimeraPag.this, PaginaCol_CS.class));
                     } else if (seleccionNublado) {
-
+                        startActivity(new Intent(PrimeraPag.this, PaginaCol_CN.class));
                     } else if (seleccionLluvioso) {
-
+                        startActivity(new Intent(PrimeraPag.this, PaginaCol_CL.class));
                     } else {
                         Toast.makeText(PrimeraPag.this, "No has seleccionado el clima", Toast.LENGTH_LONG).show();
                     }
                 } else if (seleccionFormal){
                     if (seleccionSoleado){
-
+                        startActivity(new Intent(PrimeraPag.this, PaginaCol_FS.class));
                     } else if (seleccionNublado) {
-
+                        startActivity(new Intent(PrimeraPag.this, PaginaCol_FN.class));
                     } else if (seleccionLluvioso) {
-
+                        startActivity(new Intent(PrimeraPag.this, PaginaCol_FL.class));
                     } else {
                         Toast.makeText(PrimeraPag.this, "No has seleccionado el clima", Toast.LENGTH_LONG).show();
                     }
