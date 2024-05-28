@@ -1,8 +1,12 @@
 package com.example.dresswellpiloto;
 
+import android.annotation.SuppressLint;
 import android.content.Intent;
 import android.os.Bundle;
+import android.view.MenuItem;
 import android.view.View;
+import android.widget.ImageView;
+import android.widget.PopupMenu;
 
 import androidx.activity.EdgeToEdge;
 import androidx.appcompat.app.AppCompatActivity;
@@ -22,9 +26,5 @@ public class PaginaCol_CS extends AppCompatActivity {
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom);
             return insets;
         });
-    }
-    public void irPrimeraPag(View view){
-        Intent i = new Intent(this, PrimeraPag.class);
-        startActivity(i);
     }
 }
